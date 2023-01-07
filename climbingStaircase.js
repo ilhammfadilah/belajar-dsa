@@ -1,4 +1,3 @@
-
 function climbingStaircase(n) {
   const noOfWays = [1,2];
   if(n > 2) {
@@ -6,7 +5,6 @@ function climbingStaircase(n) {
       noOfWays[i] = noOfWays[i-1] + noOfWays[i-2];
     }
   }
-
   return noOfWays[n-1];
 }
 
